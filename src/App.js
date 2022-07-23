@@ -1,11 +1,9 @@
 import React from 'react';
-import './App.css';
+import UseStateExample from './components/useState'
 
 function App() {
   return (
-    <p>
-      Cleanedup React App
-    </p>
+    <UseStateExample />
   );
 }
 
