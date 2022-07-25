@@ -39,3 +39,5 @@ useContext() allows you to work with react's context API which allows you to sha
 - A context can be created with createContext().
 - A context provider can be used to create a scope in which components can access the context. 
 - The hook allows you to access the current value within a component inside the context provider. 
+
+This can be used instead of drilling props through multiple layers of components. 
