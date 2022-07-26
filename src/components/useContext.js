@@ -17,7 +17,7 @@ function Component2() {
     return (
         <>
             <hr/>
-            <h5>Component 2</h5>
+            <h5>Child Component</h5>
             <Component3 />
         </>
     );
@@ -29,7 +29,7 @@ function Component3() {
     return (
         <>  
             <hr />
-            <h5>Component 3</h5>
+            <h5>Grandchild Component</h5>
             <h3>{`Hello ${user} again!`}</h3>
         </>
     );
