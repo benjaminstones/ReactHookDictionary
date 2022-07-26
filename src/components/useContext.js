@@ -16,7 +16,7 @@ function UseContextExample() {
 function Component2() {
     return (
         <>
-            <hr/>
+            <hr />
             <h5>Child Component</h5>
             <Component3 />
         </>
@@ -27,7 +27,7 @@ function Component3() {
     const user = useContext(UserContext);
 
     return (
-        <>  
+        <>
             <hr />
             <h5>Grandchild Component</h5>
             <h3>{`Hello ${user} again!`}</h3>
