@@ -7,6 +7,7 @@ Walkthrough of basic react hooks intended as reference for future projects.
 1. [useState](#useState)
 2. [useEffect](#useEffect)
 3. [useContext](#useContext)
+4. [useRef](#useRef)
 
 ## useState
 
@@ -41,3 +42,5 @@ useContext() allows you to work with react's context API which allows you to sha
 - The hook allows you to access the current value within a component inside the context provider. 
 
 This can be used instead of drilling props through multiple layers of components. 
+
+## useRef
