@@ -9,6 +9,7 @@ Walkthrough of basic react hooks intended as reference for future projects.
 3. [useContext](#useContext)
 4. [useRef](#useRef)
 5. [useReducer](#useReducer)
+6. [useMemo](#useMemo)
 
 ## useState
 
@@ -47,3 +48,5 @@ This can be used instead of drilling props through multiple layers of components
 ## useRef
 
 ## useReducer
+
+## useMemo
