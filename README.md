@@ -8,6 +8,7 @@ Walkthrough of basic react hooks intended as reference for future projects.
 2. [useEffect](#useEffect)
 3. [useContext](#useContext)
 4. [useRef](#useRef)
+5. [useReducer](#useReducer)
 
 ## useState
 
@@ -44,3 +45,5 @@ Returning a function from a useEffect
 This can be used instead of drilling props through multiple layers of components. 
 
 ## useRef
+
+## useReducer
