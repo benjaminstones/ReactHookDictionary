@@ -10,7 +10,7 @@ function UseRefExample() {
 
     return (
         <>
-            <h1>useRef</h1>a
+            <h1>useRef</h1>
             <input
                 type="text"
                 value={inputValue}
