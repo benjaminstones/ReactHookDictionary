@@ -46,7 +46,11 @@ Returning a function from a useEffect
 This can be used instead of drilling props through multiple layers of components. 
 
 ## useRef
+`useRef()` allows you to create an object which keeps the same values between renders. 
 
+It can be used when a value changes, like `useState()`, but it doesn't cause the component to be re-rendered when it changes. 
+
+A common usecase is to grab JSX (or HTML) elements from the DOM. 
 ## useReducer
 
 ## useMemo
