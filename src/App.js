@@ -3,6 +3,8 @@ import UseEffectExample from './components/useEffect';
 import UseStateExample from './components/useState'
 import UseContextExample from './components/useContext';
 import UseRefExample from './components/useRef';
+import UseReducerExample from './components/useReducer';
+
 
 function App() {
   return (
@@ -20,6 +22,10 @@ function App() {
       <hr/>
       <br/>
       <UseRefExample />
+      <br/>
+      <hr/>
+      <br/>
+      <UseReducerExample />
 
     </>
 
