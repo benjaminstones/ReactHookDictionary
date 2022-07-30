@@ -4,6 +4,7 @@ import UseStateExample from './components/useState'
 import UseContextExample from './components/useContext';
 import UseRefExample from './components/useRef';
 import UseReducerExample from './components/useReducer';
+import UseMemoExample from './components/useMemo'
 
 
 function App() {
@@ -26,6 +27,10 @@ function App() {
       <hr/>
       <br/>
       <UseReducerExample />
+      <br/>
+      <hr/>
+      <br/>
+      <UseMemoExample />
     </>
 
   );
