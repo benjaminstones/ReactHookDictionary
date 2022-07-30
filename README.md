@@ -51,6 +51,14 @@ This can be used instead of drilling props through multiple layers of components
 It can be used when a value changes, like `useState()`, but it doesn't cause the component to be re-rendered when it changes. 
 
 A common usecase is to grab JSX (or HTML) elements from the DOM. 
+
 ## useReducer
+Similar to 'useState()', but manages state using the Redux pattern. 
+
+Instead of updating the state directly, actions are dispatched which go to a reducer function. This function determines the next state. 
+
+`useReducer()` returns 2 values; a state and a dispatch. A dispatch can have a type (of type string), and an optional payload. Dispatching an item will trigger a reducer function, which you can define. This function can take the state and action as arguments, and use them to compute the next value within a switch statement. 
+
+This is used to manage state as the complexity of an application grows. 
 
 ## useMemo
