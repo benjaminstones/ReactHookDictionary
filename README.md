@@ -62,3 +62,8 @@ Instead of updating the state directly, actions are dispatched which go to a red
 This is used to manage state as the complexity of an application grows. 
 
 ## useMemo
+`useMemo()` can improve performance by allowing the result of function calls to be cached. 
+
+A useMemo function takes a function as a first parameter and an array of dependencies which, when changed, will cause a recompute. 
+
+Note: only use as needed, for expensive computations. 
