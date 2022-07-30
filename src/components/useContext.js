@@ -6,10 +6,14 @@ function UseContextExample() {
     const [user, setUser] = useState("Brad Pitt");
 
     return (
+        <>
+        <h1>useContext</h1>
         <UserContext.Provider value={user}>
-            <h1>{`Hello ${user}!`}</h1>
+            <h5>Parent Component</h5>
+            <h3>{`Hello ${user}!`}</h3>
             <Component2 user={user} />
         </UserContext.Provider>
+        </>
     );
 }
 
