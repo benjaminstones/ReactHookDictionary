@@ -10,6 +10,7 @@ Walkthrough of basic react hooks intended as reference for future projects.
 4. [useRef](#useRef)
 5. [useReducer](#useReducer)
 6. [useMemo](#useMemo)
+7. [useCallback](#useCallback)
 
 ## useState
 
@@ -67,3 +68,11 @@ This is used to manage state as the complexity of an application grows.
 A useMemo function takes a function as a first parameter and an array of dependencies which, when changed, will cause a recompute. 
 
 Note: only use as needed, for expensive computations. 
+
+## useCallback
+`useCallback` allows you to memoize an entire function. 
+
+When a function is defined in an object, a new function instance is created every time that component is rerendered. 
+
+Wrapping a function with useCallback() allows the same function to be passed down to multiple child components (useful when a component has a big list of child components). This prevents unecessary rerenders of the children as they will all be using the same function object. 
+
