@@ -54,7 +54,7 @@ It can be used when a value changes, like `useState()`, but it doesn't cause the
 A common usecase is to grab JSX (or HTML) elements from the DOM. 
 
 ## useReducer
-Similar to 'useState()', but manages state using the Redux pattern. 
+Similar to `useState()`, but manages state using the Redux pattern. 
 
 Instead of updating the state directly, actions are dispatched which go to a reducer function. This function determines the next state. 
 
