@@ -58,7 +58,7 @@ Similar to `useState()`, but manages state using the Redux pattern.
 
 Instead of updating the state directly, actions are dispatched which go to a reducer function. This function determines the next state. 
 
-`useReducer()` returns 2 values; a state and a dispatch. A dispatch can have a type (of type string), and an optional payload. Dispatching an item will trigger a reducer function, which you can define. This function can take the state and action as arguments, and use them to compute the next value within a switch statement. 
+`useReducer()` returns 2 values; a state and a dispatch. A dispatch can have a type (of type string), and an optional payload. Dispatching an item will trigger a reducer function, which you can define. This function can take the state and action as arguments and use them to compute the next value within a switch statement. 
 
 This is used to manage state as the complexity of an application grows. 
 
@@ -74,5 +74,5 @@ Note: only use as needed, for expensive computations.
 
 When a function is defined in an object, a new function instance is created every time that component is rerendered. 
 
-Wrapping a function with useCallback() allows the same function to be passed down to multiple child components (useful when a component has a big list of child components). This prevents unecessary rerenders of the children as they will all be using the same function object. 
+Wrapping a function with `useCallback()` allows the same function to be passed down to multiple child components (useful when a component has a big list of child components). This prevents unecessary rerenders of the children as they will all be using the same function object. 
 
