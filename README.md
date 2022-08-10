@@ -30,7 +30,7 @@ It takes 1 argument, the default state and returns a value you can use and a fun
 
 ### The Hook
 
-`useEffect()` is a function, which takes a function as its first argument. This function is known as a side effect. This function will be run whenever react updates the DOM. This happens when the component mounts and when stateful data changes.
+`useEffect()` takes a function as its first argument. This function is known as a side effect. This function will be run whenever react updates the DOM. This happens when the component mounts and when stateful data changes.
 
 The second argument is an array of dependencies. An empty array means no dependencies so will only run once initialised. You can add a state to this dependency array. Any time this value changes, the function will run. 
 
